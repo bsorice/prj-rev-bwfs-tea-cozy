@@ -1,0 +1,156 @@
+body{
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+
+.header{
+  margin-top: 0px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav{
+  display: inline-flex;
+  color: seashell;
+  text-decoration: underline;
+  justify-content: space-between;
+  width: 350px;
+  padding-right: 10px;
+}
+
+.mainbody{
+padding-top: 70px;
+
+background-color: black;
+opacity: 0.9;
+text-align: center;
+}
+
+.Mission{
+  height: 700px;
+  width: 1200px;
+  display: inline-flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  justify-content: center;
+  align-items: center;
+}
+
+.missionbanner {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+}
+
+.missionitem {
+  display: inline-flex;
+  align-items: center;
+}
+
+.Featured {
+  padding-top: 75px;
+}
+
+.Featuredmenu {
+  width: 1000px;
+  display:inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.featureitem {
+  padding: 15px;
+}
+
+.section {
+  font-size: 22px;
+  color: seashell;
+  justify-content: center;
+}
+
+
+.featurepic {
+  height: 200px;
+  width: 300px;
+}
+
+.picname{
+  margin-top: 10px;
+}
+
+.Locations {
+  height: 700px;
+  width: 1200px;
+  display: inline-flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.locationsectiontitle {
+  width: 1000px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 40px;
+
+}
+
+.locationrow {
+  width: 1000px;
+  display: inline-flex;
+  padding-top: 15px;
+}
+
+.locationbox {
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 1;
+}
+
+.locationtitle {
+  height: 60px;
+}
+
+.footer {
+  height: 200px;
+  padding-bottom: 20px;
+}
+
+.copyright {
+ text-align: left;
+ padding-left: 20px;
+ display: flex;
+}
